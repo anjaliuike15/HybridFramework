@@ -26,7 +26,6 @@ public class BaseClass {
 		}
 		driver.get(PropertyUtils.readproperties("url"));
 		driver.manage().window().maximize();
-
 	}
 	public static void ReportInit(){
 		String path=System.getProperty("user.dir")+"/target/ExtentReport.html";
